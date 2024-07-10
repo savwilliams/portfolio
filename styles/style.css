@@ -7,10 +7,9 @@
         margin: 0;
         padding: 0;
     }
-/*-----------------------------Header-----------------------------*/
+/*-----------------------------Header------#8B6E67---------#725755--------------*/
     header {
-        background-color:#A88D97 ;
-        color: white;
+        background-color: #957B83;        
         display: grid;
         grid-template-columns: 150px auto;
         width: 1300px;
@@ -18,11 +17,11 @@
     }
     nav a {
         text-align: center;
-        color: white;
+        color: black;
         text-decoration: none;
         padding: 35px;
         font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
-        font-size: 20px;
+        font-size: 22px;
     }
     nav {
         display: flex;
@@ -96,24 +95,21 @@
     }
     footer {
         background-color: #A88D97;
-        color: white;
+        color: black;
         padding: 25px;
         margin-top: 200px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         font-family: 'century gothic';
-        font-size: 20px;
+        font-size: 22px;
     }
     footer a{
-        color: white;
+        color: black;
         text-decoration: none;
     }
     footer a:hover{
-        color: black;
-    }
-    footer p{
-        font-size: 1.2em;
+        color: white;
     }
     footer p a:hover{
         text-decoration: underline;
