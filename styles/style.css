@@ -1,0 +1,127 @@
+    #content {        
+    max-width: 1544px;
+    margin: 0 auto;
+    }
+    body {
+        background-color: #FFDED1;
+        margin: 0;
+        padding: 0;
+    }
+/*-----------------------------Header-----------------------------*/
+    header {
+        background-color:#A88D97 ;
+        color: white;
+        display: grid;
+        grid-template-columns: 150px auto;
+        
+    }
+    nav a {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 35px;
+        font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
+        font-size: 20px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 13px;
+    }
+    nav a:hover {
+        background-color: #FFDED1;
+        color: black;
+    }
+/*-----------------------------Main-----------------------------*/
+
+#main-pg1{
+    font-family: 'Trebuchet MS', Perpetua, Optima, serif, "Garamond (serif)";
+    display: grid;
+    grid-template-columns: 390px 764px 390px;
+    grid-template-rows: 100px 858px;
+   
+}
+#my-name{
+    font-family: 'century gothic';
+    grid-column: 1/3;
+    grid-row: 1;
+    z-index: 2;
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 35px;
+    
+}
+#professional-intro{
+    grid-column: 1/2;
+    grid-row: 2;
+    z-index: 2;    
+    color: black;        
+    font-size: 22px;
+    padding-left: 35px;
+}
+#personal-intro{
+    grid-column: 3;
+    grid-row: 2;
+    z-index: 2;    
+    color: black;        
+    font-size: 22px;
+    text-align: right;
+    padding-right: 35px;
+    
+}
+#pg1-img-box{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;  
+   
+}
+#pg1-img{
+    width: 1544px;
+}
+
+
+
+
+
+/*----------------------------Footer------------------------------*/
+    #logo_link{
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+    }
+    .logo{
+        width: 80px;
+    }
+    footer {
+        background-color: #A88D97;
+        color: white;
+        padding: 25px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'century gothic';
+        font-size: 20px;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color: black;
+    }
+    footer p{
+        font-size: 1.2em;
+    }
+    footer p a:hover{
+        text-decoration: underline;
+    }
+    footer .social img{
+        padding-top: 15px;
+        padding-left: 35px;
+    }
+    .social-icon{
+        height: 64px;
+        
+    }
+/*----------------------------------------------------------*/
