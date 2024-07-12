@@ -1,4 +1,4 @@
-    #content {        
+    .content {        
     max-width: 1300px;
     margin: 0 auto;
     }
@@ -7,19 +7,23 @@
         margin: 0;
         padding: 0;
     }
-/*-----------------------------Header------#8B6E67---------#725755--------------*/
+/*-----------------------------Header-----------------------------*/
     header {
-        background-color: #957B83;        
+        background-color: #A88D97;        
         display: grid;
         grid-template-columns: 150px auto;
         width: 1300px;
         
     }
     nav a {
-        text-align: center;
-        color: black;
-        text-decoration: none;
+        text-align: center;  
         padding: 35px;
+        font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
+        
+    }
+    .header-font{        
+        color: black;
+        text-decoration: none;        
         font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
         font-size: 22px;
     }
@@ -34,38 +38,34 @@
     }
 /*-----------------------------Main-----------------------------*/
 
-#main-pg1{
-    font-family: 'Trebuchet MS', Perpetua, Optima, serif, "Garamond (serif)";
+/*------Home pg1--------*/
+
+#main-pg1{    
     display: grid;
     grid-template-columns: 390px 520px 390px;
     grid-template-rows: 100px 675px;
    
 }
-#my-name{
-    font-family: 'century gothic';
+#my-name{    
     grid-column: 1/3;
     grid-row: 1;
     z-index: 2;
     text-align: left;
     padding-left: 35px;
     padding-top: 55px;    
-    font-size: 30px;
-    
+    font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
+    font-size: 30px;    
 }
 #professional-intro{
     grid-column: 1/2;
     grid-row: 2;
     z-index: 2;    
-    color: black;        
-    font-size: 20px;
     padding-left: 35px;
 }
 #personal-intro{
     grid-column: 3;
     grid-row: 2;
-    z-index: 2;    
-    color: black;        
-    font-size: 20px;
+    z-index: 2;  
     text-align: right;
     padding-right: 35px;
     
@@ -74,15 +74,94 @@
     grid-column: 1;
     grid-row: 1;
     z-index: 1;  
-   
+   position: relative;
 }
 #pg1-img{
     width: 1300px;
+    position: relative;
 }
 
+.pg1-body-font{
+    color: black;        
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Perpetua, Optima, serif, "Garamond (serif)";
+}
+/*------Contact pg2--------*/
 
+.main-content{
+    width: 1000px;
+    padding-left: 150px;
+    padding-top: 55px; 
+}
+#pg2-img-box{
+    margin: auto;
+    width: 700px;
+}
+#pg2-img{
+    width: 700px;
+}
+.main-heading-font{
+    font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
+    font-size: 30px;
+    
+}
+.phases-heading-font{
+    font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 35px;
+}
+.p-heading-font{
+    font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
+    font-size: 21px;       
+}
+.pg2-body-font{
+    color: black;        
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Perpetua, Optima, serif, "Garamond (serif)";
+    padding-bottom: 35px;
+    
+}
+/*--contact form--*/
+#form-font{
+    color: black;        
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Perpetua, Optima, serif, "Garamond (serif)";
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #AF94A0;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #997C65;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
-
+/*------Education pg3--------*/
 
 /*----------------------------Footer------------------------------*/
     #logo_link{
@@ -101,8 +180,9 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-family: 'century gothic';
+        font-family: 'century gothic', Perpetua, Optima, serif, "Garamond (serif)";
         font-size: 22px;
+        width: 1251px;
     }
     footer a{
         color: black;
